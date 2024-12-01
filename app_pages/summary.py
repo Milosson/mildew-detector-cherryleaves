@@ -2,13 +2,31 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 
-def page_project_hypothesis_body():
-    st.write("### Project Hypothesis and Validation")
+def page_summary_body():
+
+    st.write("### Project Overview")
+
+    st.info(
+        f"**Background Information**\n"
+        f"* Powdery mildew is a fungal disease that affects many plants, including cherry trees. "
+        f"This fungus thrives in warm and humid environments, appearing as a powdery white coating on leaves, shoots, "
+        f"and occasionally on fruit. It typically starts spreading in early summer through wind or waterborne spores. \n"
+        f"* When cherry trees are infected, they may exhibit distorted leaves, premature leaf drop, and overall reduced health. "
+        f"The infection can diminish photosynthesis, fruit quality, and tree productivity. To manage this, effective strategies like pruning, "
+        f"improving air circulation, and applying fungicides are recommended to minimize the impact of powdery mildew.\n\n"
+        f"**Dataset Details**\n"
+        f"* The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). "
+        f"It contains over 4,000 images collected from client crop fields, showcasing both healthy cherry leaves and those infected with powdery mildew."
+    )
     
+    st.write(
+        f"* For further details, please refer to the "
+        f"[Project README file](https://github.com/Renwar-P/cherry-leaves/blob/main/README.md)."
+    )
+
     st.success(
-        f"* Cherry leaves affected by powdery mildew display distinct visual patterns that differentiate them from healthy leaves. "
-        f"These patterns are particularly noticeable along the edges of the leaf, making them a key identifier. \n\n"
-        f"* A visual montage highlights these characteristic edge patterns, emphasizing the differences. \n\n"
-        f"* To further explore and confirm this observation, it’s essential to perform Exploratory Data Analysis (EDA) on the dataset. "
-        f"This includes visualizing samples of both healthy and affected cherry leaves to uncover noticeable patterns or distinctions."
-)
+        f"This project addresses two key objectives:\n"
+        f"* 1 - To conduct a visual analysis of cherry leaves, identifying distinct differences "
+        f"between healthy leaves and those affected by powdery mildew.\n"
+        f"* 2 - To develop a predictive model capable of determining whether a cherry leaf is healthy or infected with powdery mildew."
+    )
