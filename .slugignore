@@ -1,4 +1,5 @@
-workspace/mildew-detector-cherryleaves/jupyter_notebooks
-workspace/mildew-detector-cherryleaves/inputs/cherry-leaves/test
-workspace/mildew-detector-cherryleaves/inputs/cherry-leaves/train
+/workspace/mildew-detector-cherryleaves/jupyter_notebooks
+/workspace/mildew-detector-cherryleaves/inputs/cherry-leaves/test
+/workspace/mildew-detector-cherryleaves/inputs/cherry-leaves/train
 *.ipynb
+
