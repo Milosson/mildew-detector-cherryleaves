@@ -21,7 +21,7 @@ def page_summary_body():
     
     st.write(
         f"* For further details, please refer to the "
-        f"[Project README file](https://github.com/Renwar-P/cherry-leaves/blob/main/README.md)."
+        f"[Project README file](https://github.com/Milosson/mildew-detector-cherryleaves/blob/main/README.md)."
     )
 
     st.success(
