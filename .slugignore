@@ -1,6 +1,5 @@
 inputs/cherry-leaves/train
 inputs/cherry-leaves/test
 jupyter_notebooks
-outputs/1/
 *.ipynb
 
