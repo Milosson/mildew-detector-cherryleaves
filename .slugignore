@@ -1,5 +1,5 @@
-inputs/cherry-leaves/train
-inputs/cherry-leaves/test
-jupyter_notebooks
+inputs/cherry-leaves/train/
+inputs/cherry-leaves/test/
+jupyter_notebooks/
 *.ipynb
 
