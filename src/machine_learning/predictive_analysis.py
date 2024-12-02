@@ -49,7 +49,7 @@ def load_model_and_predict(my_image, version):
     Load and perform ML prediction over live images
     """
 
-    model = load_model(f"outputs/{version}/cherry-leaves-model-h1")
+    model = load_model(f"outputs/{version}/cherry-leaves-model-h2")
 
     pred_proba = model.predict(my_image)[0, 0]
 
